@@ -113,7 +113,7 @@ def configure(preselected_domain=None):
                 store_config({'domain': domain}, 'stups')
             with Action('Writing config for Pier One..'):
                 store_config({'url': urls['pierone']}, 'pierone')
-            with Action(u'Writing config for Più..'):
+            with Action('Writing config for Più..'):
                 store_config({'even_url': urls['even']}, 'piu')
             with Action('Writing config for Fullstop..'):
                 store_config({'url': urls['fullstop']}, 'fullstop')
